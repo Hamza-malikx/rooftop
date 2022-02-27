@@ -53,6 +53,7 @@
   font: normal normal normal 16px Helvetica Neue;
   letter-spacing: 0px;
   margin: 0 14px;
+  cursor: pointer;
 }
 .navbarItemsAg {
   font-size: 15px;
@@ -62,6 +63,7 @@
   font: normal normal normal 16px Helvetica Neue;
   letter-spacing: 0px;
   margin: 10px 0px;
+  cursor: pointer;
 }
 .navbarLink {
   color: #fff;
