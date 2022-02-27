@@ -22,7 +22,7 @@
 }
 .aboutUsInnerPara {
   margin-top: 71px;
-  font: normal normal 300 16px/26px Roboto;
+  font: normal normal 300 16px Roboto;
   letter-spacing: 0.4px;
   color: #ffffff;
   text-align: center;
@@ -37,13 +37,13 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 38px;
-  font: normal normal bold 44px/53px Maxwell SmCaps;
+  font: normal normal bold 44px Maxwell SmCaps;
 }
 .aboutUsWrappers p {
   letter-spacing: 0.4px;
   color: #ffffff;
   text-align: center;
-  font: normal normal 300 16px/26px Roboto;
+  font: normal normal 300 16px Roboto;
 }
 @media screen and (max-width: 1400px) {
   .aboutUsBg {
