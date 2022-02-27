@@ -369,12 +369,11 @@ const Header = () => {
                       </div>
                     </li> */}
                     <li style={{ textAlign: "center" }}>
-                      <a
-                        href="mailto:royalty@royalrooftopclub.com"
-                        className={styles.connectWalBtn1}
-                      >
-                        WHITEPAPER
-                      </a>
+                      <button className={styles.connectWalBtn1}>
+                        <a href="mailto:royalty@royalrooftopclub.com">
+                          WHITEPAPER
+                        </a>
+                      </button>
                       <br />
                       <br />
                       <button className={styles.connectWalBtn2}>
