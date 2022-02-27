@@ -27,7 +27,7 @@
 .roadMapInnerWrapper:after {
   position: absolute;
   content: "";
-  height: 998px;
+  height: 951px;
   width: 2px;
   left: 0;
   right: 0;
@@ -188,7 +188,7 @@
     font-size: 65px;
   }
   .roadMapInnerWrapper:after {
-    height: 1013px;
+    height: 949px;
   }
   .phase1 {
     padding: 28px 23px;
@@ -258,7 +258,7 @@
     font-size: 60px;
   }
   .roadMapInnerWrapper:after {
-    height: 1034px;
+    height: 962px;
     top: 188px;
   }
   .phase1 {
@@ -315,8 +315,8 @@
     font-size: 55px;
   }
   .roadMapInnerWrapper:after {
-    height: 1227px;
-    top: 219px;
+    height: 1112px;
+    top: 213px;
   }
   .phase1 {
     padding: 26px 10px;
@@ -388,7 +388,7 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    height: 1127px;
+    height: 1047px;
     top: 188px;
     right: none;
     left: 7px;
@@ -487,8 +487,8 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    height: 1039px;
-    top: 164px;
+    height: 880px;
+    top: 156px;
     right: none;
     left: 7px;
     margin: 0 0;
@@ -591,10 +591,10 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    height: 1062px;
+    height: 857px;
     top: 182px;
     right: none;
-    left: 8px;
+    left: 10px;
     margin: 0 0;
   }
   .phase1 {
@@ -686,7 +686,7 @@
     padding-left: 10px;
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 470px) {
   .roadMapBg {
     background-position: 100% 200px;
     background-size: 122% 83%;
@@ -697,10 +697,10 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    height: 1095px;
-    top: 182px;
+    height: 909px;
+    top: 154px;
     right: none;
-    left: 36px;
+    left: 40px;
     margin: 0 0;
   }
   .phase1 {
@@ -803,8 +803,8 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    height: 1095px;
-    top: 182px;
+    height: 73%;
+    top: 162px;
     right: none;
     left: 32px;
     margin: 0 0;
@@ -901,10 +901,10 @@
 
 @media screen and (max-width: 420px) {
   .roadMapInnerWrapper:after {
-    height: 1160px;
-    top: 203px;
+    height: 969px;
+    top: 174px;
     right: none;
-    left: 30px;
+    left: 32px;
     margin: 0 0;
   }
   .phase1:after {
@@ -937,8 +937,8 @@
 }
 @media screen and (max-width: 403px) {
   .roadMapInnerWrapper:after {
-    height: 1180px;
-    top: 203px;
+    height: 1010px;
+    top: 167px;
     right: none;
     left: 27px;
     margin: 0 0;
@@ -985,8 +985,8 @@
     right: none;
     left: 12px;
     margin: 0 0;
-    height: 1146px;
-    top: 214px;
+    height: 966px;
+    top: 170px;
   }
   .phase1 {
     padding: 26px 21px;
@@ -1079,7 +1079,7 @@
     font-size: 13px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 370px) {
   .roadMapBg {
     background-position: 100% 200px;
     background-size: 122% 83%;
@@ -1090,11 +1090,10 @@
     margin-bottom: 74.94px;
   }
   .roadMapInnerWrapper:after {
-    right: none;
     left: 10px;
     margin: 0 0;
-    height: 1177px;
-    top: 214px;
+    height: 998px;
+    top: 166px;
   }
   .phase1 {
     padding: 26px 21px;
@@ -1200,8 +1199,8 @@
   .roadMapInnerWrapper:after {
     left: 8px;
     margin: 0 0;
-    height: 1207px;
-    top: 214px;
+    height: 1038px;
+    top: 168px;
   }
   .phase1 {
     padding: 26px 21px;
