@@ -1,0 +1,1297 @@
+.roadMap {
+  background: #29294d;
+}
+.roadMapBg {
+  background: url("../../assets/images/Mask Group 3@2x.png");
+  background-repeat: no-repeat;
+  /* background-position: center 8%; */
+  background-position: center -100px;
+  background-size: cover;
+
+  padding-bottom: 164px;
+}
+.roadMapInner h2 {
+  padding-top: 213px;
+  font-size: 70px;
+  background: -webkit-linear-gradient(right, #c31a21, #ec573a);
+  background: linear-gradient(to right, #c31a21, #ec573a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 90.94px;
+  font-family: "Maxwell SmCaps";
+}
+.roadMapInnerWrapper {
+  position: relative;
+}
+.roadMapInnerWrapper:after {
+  position: absolute;
+  content: "";
+  height: 998px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 180px;
+  background-color: #fff;
+  z-index: 1;
+}
+.phase1 {
+  border: 3px solid #fb8e13;
+  border-radius: 29px;
+  width: 47%;
+  margin-left: auto;
+  padding: 31px 26px;
+  position: relative;
+}
+.phase1:after {
+  position: absolute;
+  background-color: #fb8e13;
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -56px;
+  z-index: 2;
+}
+.phase1 h3 {
+  color: #fb8e13;
+  margin-bottom: 26px;
+  font: normal normal 600 33px/40px Montserrat;
+  letter-spacing: 0px;
+}
+.ul li {
+  margin-bottom: 16px;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.phase2 {
+  border: 3px solid #c21820;
+  border-radius: 29px;
+  width: 47%;
+  margin-right: auto;
+  padding: 31px 26px;
+  position: relative;
+}
+.phase2:after {
+  position: absolute;
+  background-color: #c21820;
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: -56px;
+  z-index: 2;
+}
+.phase2 h3 {
+  color: #c21820;
+  margin-bottom: 26px;
+  font: normal normal 600 33px/40px Montserrat;
+
+  letter-spacing: 0px;
+}
+
+.phase3 {
+  border: 3px solid #e53779;
+  border-radius: 29px;
+  width: 47%;
+  margin-left: auto;
+  padding: 31px 26px;
+  position: relative;
+}
+.phase3:after {
+  position: absolute;
+  background-color: #e53779;
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -56px;
+  z-index: 2;
+}
+.phase3 h3 {
+  color: #e53779;
+  margin-bottom: 26px;
+  font: normal normal 600 33px/40px Montserrat;
+  letter-spacing: 0px;
+}
+.phase4 {
+  border: 3px solid #37a85c;
+  border-radius: 29px;
+  width: 47%;
+  margin-right: auto;
+  padding: 31px 26px;
+  position: relative;
+}
+.phase4:after {
+  position: absolute;
+  background-color: #37a85c;
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: -56px;
+  z-index: 2;
+}
+.phase4 h3 {
+  color: #37a85c;
+  margin-bottom: 26px;
+  font: normal normal 600 33px/40px Montserrat;
+  letter-spacing: 0px;
+}
+.phase5 {
+  border: 3px solid #16bcf3;
+  border-radius: 29px;
+  width: 47%;
+  margin-left: auto;
+  padding: 31px 26px;
+  position: relative;
+}
+.phase5:after {
+  position: absolute;
+  background-color: #16bcf3;
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -56px;
+  z-index: 2;
+}
+.phase5 h3 {
+  color: #16bcf3;
+  margin-bottom: 26px;
+  font: normal normal 600 33px/40px Montserrat;
+  letter-spacing: 0px;
+}
+@media screen and (max-width: 1400px) {
+  .roadMapBg {
+    background-position: 100% 195px;
+    background-size: contain;
+  }
+  .roadMapInner h2 {
+    font-size: 65px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1013px;
+  }
+  .phase1 {
+    padding: 28px 23px;
+  }
+  .phase2 {
+    padding: 28px 23px;
+  }
+  .phase3 {
+    padding: 28px 23px;
+  }
+  .phase4 {
+    padding: 28px 23px;
+  }
+  .phase5 {
+    padding: 28px 23px;
+  }
+  .phase1:after {
+    left: -48px;
+    width: 25px;
+    height: 25px;
+  }
+  .phase2:after {
+    right: -48px;
+    width: 25px;
+    height: 25px;
+  }
+  .phase3:after {
+    left: -48px;
+    width: 25px;
+    height: 25px;
+  }
+  .phase4:after {
+    right: -48px;
+    width: 25px;
+    height: 25px;
+  }
+  .phase5:after {
+    left: -48px;
+    width: 25px;
+    height: 25px;
+  }
+  .phase1 h3 {
+    font-size: 30px;
+  }
+  .phase2 h3 {
+    font-size: 30px;
+  }
+  .phase3 h3 {
+    font-size: 30px;
+  }
+  .phase4 h3 {
+    font-size: 30px;
+  }
+  .phase5 h3 {
+    font-size: 30px;
+  }
+  .ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 100% 71%;
+  }
+  .roadMapInner h2 {
+    font-size: 60px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1034px;
+    top: 188px;
+  }
+  .phase1 {
+    padding: 26px 21px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+  }
+  .phase1:after {
+    left: -43px;
+  }
+  .phase2:after {
+    right: -43px;
+  }
+  .phase3:after {
+    left: -43px;
+  }
+  .phase4:after {
+    right: -43px;
+  }
+  .phase5:after {
+    left: -43px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+  }
+  .ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .roadMapInner h2 {
+    font-size: 55px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1227px;
+    top: 219px;
+  }
+  .phase1 {
+    padding: 26px 10px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+  }
+  .phase1:after {
+    left: -35px;
+    width: 22px;
+    height: 22px;
+  }
+  .phase2:after {
+    right: -35px;
+    width: 22px;
+    height: 22px;
+  }
+  .phase3:after {
+    left: -35px;
+    width: 22px;
+    height: 22px;
+  }
+  .phase4:after {
+    right: -35px;
+    width: 22px;
+    height: 22px;
+  }
+  .phase5:after {
+    left: -35px;
+    width: 22px;
+    height: 22px;
+  }
+  .phase1 h3 {
+    font-size: 25px;
+  }
+  .phase2 h3 {
+    font-size: 25px;
+  }
+  .phase3 h3 {
+    font-size: 25px;
+  }
+  .phase4 h3 {
+    font-size: 25px;
+  }
+  .phase5 h3 {
+    font-size: 25px;
+  }
+  .ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 100% 71%;
+  }
+  .roadMapInner h2 {
+    padding-top: 170px;
+    font-size: 50px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1127px;
+    top: 188px;
+    right: none;
+    left: 7px;
+    margin: 0 0;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+  }
+  .ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 100% 71%;
+    padding-bottom: 100px;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 45px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1039px;
+    top: 164px;
+    right: none;
+    left: 7px;
+    margin: 0 0;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 86%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1062px;
+    top: 182px;
+    right: none;
+    left: 8px;
+    margin: 0 0;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 83.5%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 83.5%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 83.5%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 83.5%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    width: 83.5%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -43px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -43px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+  .ul {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1095px;
+    top: 182px;
+    right: none;
+    left: 36px;
+    margin: 0 0;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+  .ul {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    height: 1095px;
+    top: 182px;
+    right: none;
+    left: 32px;
+    margin: 0 0;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 82%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+  .ul {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .roadMapInnerWrapper:after {
+    height: 1160px;
+    top: 203px;
+    right: none;
+    left: 30px;
+    margin: 0 0;
+  }
+  .phase1:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (max-width: 403px) {
+  .roadMapInnerWrapper:after {
+    height: 1180px;
+    top: 203px;
+    right: none;
+    left: 27px;
+    margin: 0 0;
+  }
+  .phase1:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -54px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -54px;
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 36px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    right: none;
+    left: 12px;
+    margin: 0 0;
+    height: 1146px;
+    top: 214px;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 36px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    right: none;
+    left: 10px;
+    margin: 0 0;
+    height: 1177px;
+    top: 214px;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .roadMapBg {
+    background-position: 100% 200px;
+    background-size: 122% 83%;
+  }
+  .roadMapInner h2 {
+    padding-top: 100px;
+    font-size: 36px;
+    margin-bottom: 74.94px;
+  }
+  .roadMapInnerWrapper:after {
+    left: 8px;
+    margin: 0 0;
+    height: 1207px;
+    top: 214px;
+  }
+  .phase1 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase2 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase3 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase4 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase5 {
+    padding: 26px 21px;
+    margin-right: 0;
+    margin: auto;
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 22px;
+  }
+  .phase1:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase2:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase3:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase4:after {
+    left: -39px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+  }
+  .phase5:after {
+    left: -39px;
+    width: 24px;
+    height: 24px;
+  }
+  .phase1 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase2 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase3 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase4 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .phase5 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .ul li {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,131 @@
+.partnership {
+  padding: 103.86px;
+}
+.partnershipInner h2 {
+  font-size: 70px;
+  background: -webkit-linear-gradient(right, #c31a21, #ec573a);
+  background: linear-gradient(to right, #c31a21, #ec573a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 56px;
+  font-family: "Maxwell SmCaps";
+}
+.partnershipInner p {
+  font-size: 18px;
+  color: #000;
+  font: normal normal 300 16px/26px Roboto;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.partnershipInner h4 {
+  letter-spacing: 0.47px;
+  color: #000000;
+  font: normal normal bold 19px/26px Roboto;
+  letter-spacing: 0.47px;
+  text-align: center;
+  margin-bottom: 25.5px;
+}
+@media screen and (max-width: 1400px) {
+  .partnership {
+    padding: 103.86px 20px;
+  }
+  .partnershipInner h2 {
+    font-size: 65px;
+  }
+  .partnershipInner p {
+    font-size: 16px;
+  }
+  .partnershipInner h4 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .partnership {
+    padding: 90.86px 20px;
+  }
+  .partnershipInner h2 {
+    font-size: 60px;
+  }
+  .partnershipInner p {
+    font-size: 16px;
+  }
+  .partnershipInner h4 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .partnership {
+    padding: 70.86px 20px;
+  }
+  .partnershipInner h2 {
+    font-size: 55px;
+  }
+  .partnershipInner p {
+    font-size: 16px;
+  }
+  .partnershipInner h4 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .partnership {
+    padding: 50.86px 10px;
+  }
+  .partnershipInner h2 {
+    font-size: 50px;
+  }
+  .partnershipInner p {
+    font-size: 15px;
+  }
+  .partnershipInner h4 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .partnership {
+    padding: 40.86px 5px;
+  }
+  .partnershipInner h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  .partnershipInner p {
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+  .partnershipInner h4 {
+    font-size: 16px;
+    margin-bottom: 12.5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .partnership {
+    padding: 20.86px 0px;
+  }
+  .partnershipInner h2 {
+    font-size: 40px;
+  }
+  .partnershipInner p {
+    font-size: 13px;
+  }
+  .partnershipInner h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .partnership {
+    padding: 20.86px 0px;
+  }
+  .partnershipInner h2 {
+    font-size: 36px;
+  }
+  .partnershipInner p {
+    font-size: 12px;
+  }
+  .partnershipInner h4 {
+    font-size: 15px;
+  }
+}

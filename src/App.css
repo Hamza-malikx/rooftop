@@ -1,38 +1,215 @@
 .App {
-  text-align: center;
+  background: #181834;
+  height: 100vh;
+}
+.accordion-flush .accordion-item .accordion-button {
+  background: transparent;
+  color: #fff;
+}
+.accordion-item {
+  /* background: transparent; */
+  border-bottom: 1px solid #fff !important;
+}
+.accordion-header {
+  background: transparent;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font: normal normal bold 24px/32px Roboto;
+  letter-spacing: 0px;
+}
+.accordion-flush .accordion-item {
+  background: transparent;
+}
+.accordion-body {
+  color: #fff;
+  padding: 0rem 0rem 27px !important;
+  font: normal normal 300 16px/21px Roboto;
+  letter-spacing: 0px;
+}
+.accordion-button {
+  padding: 1.6rem 0rem 1.5rem !important;
+  font: normal normal bold 24px/32px Roboto;
+  letter-spacing: 0px;
+}
+.accordion-button::after {
+  background-image: url("./assets/icons/pnghut_angle-line-product-font-white-down-arrow.png") !important;
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 transparent !important;
+}
+/* .slick-active + .slick-active {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+} */
+.slick-slide {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* .slick-current {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1 !important;
+} */
+.slick-slide {
+  /* opacity: 0.22 !important; */
+}
+.slick-current img {
+  height: 580px;
+  margin-top: -45px;
+  /* width: 454px; */
+  z-index: 1000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slick-current video {
+  transform: scale(1.1);
+  height: 580px;
+  margin-top: -45px;
+  z-index: 1000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slick-slider {
+  margin: 100px auto;
+  height: auto !important;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slick-list {
+  padding: 100px 20% 100px 0 !important;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-center {
+  opacity: 1 !important;
+  z-index: 1000;
+}
+.slick-slide {
+  opacity: 0.43;
+  z-index: 100;
+}
+.slider-container .slick-list {
+  overflow: visible;
+}
+.slick-slide {
+  position: relative;
+  z-index: 6;
+}
+// Set center to high zindex
+.slick-center {
+  z-index: 999;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1200px) {
+  .slick-current img {
+    height: 500px;
+    width: 300px;
+    margin-left: 26px;
+  }
+  .slick-current video {
+    height: 473px;
+    margin-left: -10px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1000px) {
+  .slick-current img {
+    height: 400px;
+    width: 206px;
+    margin-left: 12px;
+    margin: auto 0 auto 12px;
   }
-  to {
-    transform: rotate(360deg);
+  .slick-current video {
+    height: 430px;
+    margin-left: -10px;
+    margin: auto;
+    transform: scale(1.2);
+  }
+  .slick-list {
+    padding: 0px 20% 0px 0 !important;
+    transition: all 0.3s ease-out;
+  }
+}
+@media screen and (max-width: 767px) {
+  .slick-current img {
+    height: 288px;
+    width: 185px;
+    margin-left: 12px;
+    margin: 50px 0 auto -5px;
+  }
+  .slick-current video {
+    height: 350px;
+    margin-left: -10px;
+    margin: 23px auto 0;
+    transform: scale(1.1);
+  }
+  .slick-next {
+    right: 5px !important;
+  }
+  .slick-prev {
+    left: 25px !important;
+    z-index: 100000;
+  }
+  .slick-center + .slick-slide {
+    z-index: -11;
+    margin-right: -10px;
+  }
+  .slick-slider {
+    margin: 0px auto;
+    height: auto !important;
+    transition: all 0.3s ease-out;
+  }
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 480px) {
+  .slick-current img {
+    height: 276px;
+    width: 146px;
+    margin-left: 12px;
+    margin: 62px 0 auto -2px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .slick-current img {
+    height: 218px;
+    width: 131px;
+    margin-left: 12px;
+    margin: 88px 0 auto 7px;
+  }
+  .slick-current video {
+    height: 350px;
+    margin-left: -10px;
+    margin: 24px auto 0 21px;
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 380px) {
+  .slick-current video {
+    height: 350px;
+    margin-left: -10px;
+    margin: 24px auto 0 16px;
+    transform: scale(1.1);
+  }
+  .slick-current img {
+    height: 218px;
+    width: 131px;
+    margin-left: 12px;
+    margin: 88px 0 auto -2px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .slick-current video {
+    height: 350px;
+    margin-left: -10px;
+    margin: 24px auto 0 16px;
+    transform: scale(1.1);
+  }
+  .slick-current img {
+    height: 218px;
+    width: 115px;
+    margin-left: 12px;
+    margin: 88px 0 auto 2px;
   }
 }
