@@ -6,8 +6,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  /* background: transparent url("../../assets/images/Group 13@2x.png") 0% 0%
-    no-repeat padding-box; */
   height: 1261px;
 }
 .collectionInner h2 {
@@ -26,18 +24,18 @@
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  font: normal normal bold 47px/56px Maxwell SmCaps;
+  font: normal normal bold 47px Maxwell SmCaps;
   margin-bottom: 31px;
 }
 .collectionInnerPara1 {
-  font: normal normal 300 16px/26px Roboto;
+  font: normal normal 300 16px Roboto;
   text-align: center;
   letter-spacing: 0.4px;
   color: #ffffff;
   margin-bottom: 54px;
 }
 .collectionInnerPara2 {
-  font: normal normal 300 20px/26px Roboto;
+  font: normal normal 300 20px Roboto;
   color: #e54b36;
   font-size: 22px;
   width: 50%;
@@ -46,7 +44,7 @@
   letter-spacing: 0;
 }
 .collectionInnerPara3 {
-  font: normal normal normal 28px/45px Roboto;
+  font: normal normal normal 28px Roboto;
   text-align: center;
   letter-spacing: 1.12px;
   color: #ffffff;
@@ -62,17 +60,14 @@
   width: 233px;
   height: 48px;
   margin-right: 16px;
-  /* font-family: "Poppins", sans-serif; */
   font-size: 25px;
   color: #000 !important;
   border: none;
   text-align: center;
-  /* font: normal normal normal 25px/38px Poppins; */
 }
 .mintWrapper input::placeholder {
   text-align: center;
   color: #000;
-  /* font-family: "Poppins", sans-serif; */
 }
 
 .mintWrapper input:focus {
@@ -83,7 +78,7 @@
   color: #fff;
   background: linear-gradient(to right, #c21820, #ef5b3c);
   border: none;
-  font: normal normal bold 20px/24px Maxwell SmCaps;
+  font: normal normal bold 20px Maxwell SmCaps;
   font-size: 16px;
   font-weight: 900;
   text-transform: uppercase;

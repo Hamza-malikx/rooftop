@@ -15,7 +15,7 @@
 .partnershipInner p {
   font-size: 18px;
   color: #000;
-  font: normal normal 300 16px/26px Roboto;
+  font: normal normal 300 16px Roboto;
   letter-spacing: 0.4px;
   text-align: center;
   margin-bottom: 30px;
@@ -23,7 +23,7 @@
 .partnershipInner h4 {
   letter-spacing: 0.47px;
   color: #000000;
-  font: normal normal bold 19px/26px Roboto;
+  font: normal normal bold 19px Roboto;
   letter-spacing: 0.47px;
   text-align: center;
   margin-bottom: 25.5px;

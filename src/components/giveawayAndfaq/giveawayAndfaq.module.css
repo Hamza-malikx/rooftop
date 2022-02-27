@@ -1,9 +1,5 @@
 .giveawayAndfaq {
   background-color: #29294d;
-  /* background-image: url("../../assets/images/Group 14@2x.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; */
 }
 .giveawayInner h2 {
   font-size: 70px;
@@ -20,7 +16,7 @@
 .giveawayInner p {
   text-align: center;
   color: #ffffff;
-  font: normal normal 300 16px/26px Roboto;
+  font: normal normal 300 16px Roboto;
   letter-spacing: 0.4px;
   padding-bottom: 176.05px;
 }
@@ -38,7 +34,6 @@
   text-align: center;
   color: #ffffff;
   padding-bottom: 205px;
-  /* margin-right: 20px; */
 }
 .img {
   margin: 0 auto;
